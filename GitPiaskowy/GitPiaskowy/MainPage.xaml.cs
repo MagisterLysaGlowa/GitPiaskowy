@@ -161,6 +161,7 @@ namespace GitPiaskowy
                     OutputEquation_Label.Text = "1/" + a.ToString();
                     break;
             }
+            Output_Label.Text = result.ToString();
             a = result;
             b = 0;
             result = 0;
