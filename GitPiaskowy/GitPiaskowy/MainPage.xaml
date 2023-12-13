@@ -43,8 +43,15 @@
                     CornerRadius="10"
                     HeightRequest="100">
                     <StackLayout>
-                        <Label x:Name="OutputEquation_Label" HorizontalTextAlignment="End" />
-                        <Label x:Name="Output_Label" HorizontalTextAlignment="End" />
+                        <Label
+                            x:Name="OutputEquation_Label"
+                            FontSize="18"
+                            HorizontalTextAlignment="End" />
+                        <Label
+                            x:Name="Output_Label"
+                            FontSize="30"
+                            HorizontalTextAlignment="End"
+                            LineBreakMode="NoWrap" />
                     </StackLayout>
                 </Frame>
 
