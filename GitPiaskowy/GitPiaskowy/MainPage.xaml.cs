@@ -73,24 +73,24 @@ namespace GitPiaskowy
                     operation = Operation.Add;
                     break;
                 case "-":
-                    operation = Operation.Add;
+                    operation = Operation.Subtract;
                     break;
                 case "x":
-                    operation = Operation.Add;
+                    operation = Operation.Multiply;
                     break;
                 case "/":
-                    operation = Operation.Add;
+                    operation = Operation.Divide;
                     break;
                 case "x^2":
-                    operation = Operation.Add;
+                    operation = Operation.Square;
                     result = a * a;
                     break;
                 case "sqrt":
-                    operation = Operation.Add;
+                    operation = Operation.SquareRoot;
                     result = Math.Sqrt(a);
                     break;
                 case "1/x":
-                    operation = Operation.Add;
+                    operation = Operation.Inverse;
                     result = 1 / a;
                     break;
             }
